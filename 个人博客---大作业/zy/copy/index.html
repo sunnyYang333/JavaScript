@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>增加复制图片</title>
+    <style>
+        img{
+            float: left;
+            width: 25%;
+            height: 180px;
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+    <h2>喜欢的衣服</h2>
+    <input id="b1" type="button" value="增加一幅图片" onclick="newNode()"/>
+    <input id="b2" type="button" value="复制原图" onclick="copyNode()"/><br>
+    <img class="img_1" src="images/1.jpg" id="img1" alt="1"/>
+    <img class="img_2" src="images/2.jpg" id="img2" alt="2"/>
+    <script>
+       function newNode() {
+           var oldNode = document.getElementById("img1"); //访问插入节点的位置
+           var image = document.createElement("img");  //创建一个图片节点
+           image.setAttribute("src","images/3.jpg");  //设置图片路径
+
+           document.body.insertBefore(image,oldNode);  //插入图片到img1前面
+       }
+
+       function copyNode() {
+           var image = document.getElementById("img1");  //访问复制的节点
+           var copyImage = image.cloneNode(false);  //复制指定的节点
+           document.body.appendChild(copyImage);  //在页面最后增加节点
+       }
+    </script>
+</body>
+</html>

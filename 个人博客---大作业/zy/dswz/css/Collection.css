@@ -1,0 +1,344 @@
+.foot_bottom_bot{
+	float: left;
+	width: 100%;
+	height: 100px;
+	margin-top:0px;
+}
+.foot_bottom_bot2{
+	float: left;
+	width: 15%;
+	height: 75px;
+	margin-top:30px;
+	margin-left: 150px;
+}
+.foot_font{
+	float:left;
+	margin-left:38%;
+}
+.foot_mid_font1{
+	float: left;
+    margin-left: 28%;
+}
+
+.body_all{
+	float:left;
+	width:100%;
+	height:850px;
+}
+
+.body_all_head{
+	float:left;
+	width:100%;
+	height:100px;
+	margin-top:15px;
+	background-color:#E0FFFF;
+}
+
+.head_wen_zi{
+	float:left;
+	font-size:40px;
+	margin-top:25px;
+	margin-left:45%;
+	color:#ADD8E6;
+	transition:all 1s linear;
+}
+
+.head_wen_zi:hover{
+	color:pink;
+}
+
+
+
+.head_left_images{
+	float:left;
+	width:100%;
+	height:300px;
+	margin-top:20px;
+}
+
+.head_left_images1_01{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images1_01_001{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.head_left_images2_02{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images2_02_002{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.head_left_images3_03{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images3_03_003{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.head_left_images4_04{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images4_04_004{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.wen_zi_1{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_1_01{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:90px;
+	transition:all 1s linear;
+}
+
+.wen_zi_1_01:hover{
+	color:#FFB6C1;
+}
+
+.wen_zi_2{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_2_02{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:80px;
+	transition:all 1s linear;
+}
+
+.wen_zi_2_02:hover{
+	color:#FFB6C1;
+}
+
+.wen_zi_3{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_3_03{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:80px;
+	transition:all 1s linear;
+}
+
+.wen_zi_3_03:hover{
+	color:#FFB6C1;
+}
+
+.wen_zi_4{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_4_04{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:90px;
+	transition:all 1s linear;
+}
+
+.wen_zi_4_04:hover{
+	color:#FFB6C1;
+}
+
+
+
+
+.head_right_images{
+	float:left;
+	width:100%;
+	height:300px;
+	margin-top:85px;
+}
+
+.head_left_images5_05{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images5_05_005{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.head_left_images6_06{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images6_06_006{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.head_left_images7_07{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images7_07_007{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.head_left_images8_08{
+	float:left;
+	width:23%;
+	height:240px;
+	margin-left:20px;
+}
+
+.head_left_images8_08_008{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.wen_zi_5{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_5_05{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:90px;
+	transition:all 1s linear;
+}
+
+.wen_zi_5_05:hover{
+	color:#FFB6C1;
+}
+
+.wen_zi_6{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_6_06{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:80px;
+	transition:all 1s linear;
+}
+
+.wen_zi_6_06:hover{
+	color:#FFB6C1;
+}
+
+.wen_zi_7{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_7_07{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:80px;
+	transition:all 1s linear;
+}
+
+.wen_zi_7_07:hover{
+	color:#FFB6C1;
+}
+
+.wen_zi_8{
+	float:left;
+	width:23%;
+	height:45px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.wen_zi_8_08{
+	float:left;
+	font-size:25px;
+	margin-top:5px;
+	margin-left:90px;
+	transition:all 1s linear;
+}
+
+.wen_zi_8_08:hover{
+	color:#FFB6C1;
+}
+
+.img_hover{
+	transition:width 2s;
+	-moz-transition:width 2s; 
+	-webkit-transition:width 2s; 
+	-o-transition:width 2s; 
+}
+.img_hover:hover{
+	width:250px;
+}
+
+
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算器</title>
+    <style>
+        body{
+            cursor: url(images/cat.cur),auto;
+        }
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+   
+</head>
+<body onload="onLoad()" style="font-family: FZShuTi;">
+    <div class="box1">
+        <div class="box2">
+            <span class="wenzi">网页计算器</span>
+            <span class="ywh">@yangwenhua</span>
+        </div>
+        <div class="box3">
+            <div class="box4">
+                <div class="box5">
+                    <input type="text" id="boxName" name="boxName" class="box" value="" onfocus="calc(this)">
+                </div>
+            </div>
+            <div class="box6">
+                <div class="box7">
+                    <div class="box8">
+                        <input type="button" id="ON" onclick="clearNumb()" value="ON" class="check1" style="background-color: rgb(161, 100, 100);" readonly="readonly">
+                    </div>
+                    <div class="box9">
+                        <input type="button" id="back" onclick="tuiGe()" value="back" class="check1" style="background-color:gray" readonly="readonly">
+                    </div>
+                    <div class="box10">
+                        <input type="button" id="/" onclick="calc(this.id)" value="/" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box11">
+                        <input type="button" id="*" onclick="calc(this.id)" value="*" class="check1" readonly="readonly">
+                    </div>
+                    
+                    
+                </div>
+                <div class="box12">
+                    <div class="box13">
+                        <input type="button" id="7" onclick="calc(this.id)" value="7" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box14">
+                        <input type="button" id="8" onclick="calc(this.id)" value="8" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box15">
+                        <input type="button" id="9" onclick="calc(this.id)" value="9" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box16">
+                        <input type="button" id="+" onclick="calc(this.id)" value="+" class="check1" readonly="readonly">
+                    </div>
+                    
+                    
+                </div>
+                <div class="box17">
+                    <div class="box18">
+                        <input type="button" id="4" onclick="calc(this.id)" value="4" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box19">
+                        <input type="button" id="5" onclick="calc(this.id)" value="5" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box20">
+                        <input type="button" id="6" onclick="calc(this.id)" value="6" class="check1" readonly="readonly">
+                    </div>
+                    <div class="box21">
+                        <input type="button" id="-" onclick="calc(this.id)" value="-" class="check1" readonly="readonly">
+                    </div>
+                </div>
+                <div class="box22">
+                    <div class="box23">
+                        <div class="box26">
+                            <input type="button" id="1" onclick="calc(this.id)" value="1" class="check1" readonly="readonly">
+                        </div>
+                        <div class="box27">
+                            <input type="button" id="2" onclick="calc(this.id)" value="2" class="check1" readonly="readonly">
+                        </div>
+                        <div class="box28">
+                            <input type="button" id="3" onclick="calc(this.id)" value="3" class="check1" readonly="readonly">
+                        </div>
+                    </div>
+                    <div class="box24">
+                        <div class="box29">
+                            <input type="button" id="%" onclick="calc(this.id)" value="%" class="check1" readonly="readonly">
+                        </div>
+                        <div class="box30">
+                            <input type="button" id="O" onclick="calc(this.id)" value="0" class="check1" readonly="readonly">
+                        </div>
+                        <div class="box31">
+                            <input type="button" id="." onclick="calc(this.id)" value="." class="check1" readonly="readonly">
+                        </div>
+                    </div>
+                </div>
+                <div class="box25">
+                    <input type="button" id="eva" onclick="equal()" value="=" class="check2" readonly="readonly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var num = 0; // 定义第一个输入的数据
+        function calc(num) {
+            //获取当前输入
+            document.getElementById('boxName').value += document.getElementById(num).value;
+        }
+        function equal() {
+            //计算输入结果
+            document.getElementById("boxName").value = eval(document.getElementById("boxName").value);
+        }
+        function clearNumb() {
+            //清0
+            document.getElementById("boxName").value = null;
+            document.getElementById("boxName").focus();
+        }
+        function tuiGe() {
+            //退格
+            var arr = document.getElementById("boxName");
+            arr.value = arr.value.substring(0, arr.value.length - 1);
+        }
+        function onLoad(){
+            //加载完毕后光标自动对应到输入框
+            document.getElementById("boxName").focus();
+        }
+    </script>
+</body>
+</html>

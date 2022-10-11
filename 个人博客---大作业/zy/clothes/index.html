@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>标签栏切换效果</title>
+    <style>
+      body,ul{
+        margin:0;
+        padding:0;
+      }
+
+      ul{
+        list-style:none;
+        }
+
+      .tab-box{
+        width:100%;
+        height: 530px;;
+        margin:10px;
+        }
+
+      .tab-head-div{
+        width:120px;
+        height:90px;
+        margin-top: 37px;
+        margin-left: 105px;
+        float:left;
+        border-bottom:1px solid #ccc;
+        border-right:1px solid #ccc;
+        background:#206F96;
+        line-height:30px;
+        text-align:center;
+        cursor:pointer;
+        color:#fff;
+        }
+
+      .tab-head .current{
+        background:#fff;
+        border-bottom:1px solid #fff;
+        color:#000;
+      }
+
+      .tab-head-r{
+        border-right:0;
+      }
+
+      .tab-body-div{
+        display:none;
+      }
+
+      .img_1{
+        float: left;
+        width: 100%;
+        height: 90px;
+      }
+    
+      .tab-body .current{
+        display:block;
+        float: left;
+        width: 100%;
+        height: 400px;
+        }
+
+        .img_1_01{
+          float: left;
+          width: 45%;
+          height:400px;
+          margin-left: 28%;
+          border: 3px solid gray;
+          border-radius: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="tab-box">
+       <!--jkdjfk?-->
+       <div class="tab-body">
+        <div class="tab-body-div current"> <img class="img_1_01" src="images/1.jpg"/> </div>
+        <div class="tab-body-div"> <img class="img_1_01" src="images/2.jpg"/> </div>
+        <div class="tab-body-div"> <img class="img_1_01" src="images/3.jpg"/> </div>
+        <div class="tab-body-div"> <img class="img_1_01" src="images/4.jpg"/> </div>
+        <div class="tab-body-div"> <img class="img_1_01" src="images/5.jpg"/> </div>
+      </div>
+      <div class="tab-head">
+        <div class="tab-head-div current"><img class="img_1" src="images/1.jpg"/></div>
+        <div class="tab-head-div"><img class="img_1" src="images/2.jpg"/></div>
+        <div class="tab-head-div"><img class="img_1" src="images/3.jpg"/></div>
+        <div class="tab-head-div"><img class="img_1" src="images/4.jpg"/></div>
+        <div class="tab-head-div tab-head-r"><img class="img_1" src="images/5.jpg"/></div>
+      </div>
+     
+    </div>
+    <script>
+      // 获取标签栏的所有标签元素对象
+      var tabs = document.getElementsByClassName('tab-head-div');
+      // 获取标签栏的所有内容对象
+      var divs = document.getElementsByClassName('tab-body-div');
+      for (var i = 0; i < tabs.length; ++i) {        // 遍历标签部分的元素对象
+        tabs[i].onmouseover = function() {           // 为标签元素对象添加鼠标滑过事件
+          for (var i = 0; i < divs.length; ++i) {    // 遍历标签栏的内容元素对象
+            if (tabs[i] == this) {    // 显示当前鼠标滑过的li元素
+              divs[i].classList.add('current');
+              tabs[i].classList.add('current');
+            } else {                  // 隐藏其他li元素
+              divs[i].classList.remove('current');
+              tabs[i].classList.remove('current');
+            }
+          }
+        };
+      }
+    </script>
+  </body>
+</html>

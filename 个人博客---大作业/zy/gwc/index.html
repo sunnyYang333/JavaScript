@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jk购物车</title>
+    <style>
+        body{
+            cursor: url(images/cat.cur),auto;
+        }
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="box">
+        <div class="jk">
+            <img class="picjk" src="images/jk.png">
+            <div class="wz"><span class="wenzi">购物车</span></div>
+        </div><hr size="1" color="gray">
+        <div class="body_box1">
+            <div class="quanxuan"><input class="check" type="checkbox"><span class="qx">全选</span></div>
+            <div class="name"><span class="sp">商品</div>
+            <div class="pric"><span class="dj">单价</span></div>
+            <div class="numbe"><span class="sl">数量</span></div>
+            <div class="calu"><span class="xj">小计</span></div>
+            <div class="caozuo"><span class="cz">操作</span></div>
+        </div><hr size="1" color="gray">
+        <div class="body_box2" id="dv">
+            <div class="kuang"><input class="check1" type="checkbox"></div>
+            <div class="pic1">
+                <img class="pic1_1" src="images/3.jpg">
+            </div>
+            <div class="img_wenzi1">
+                <span class="wenzi1">【得物App专供】 栗水手服学院风 JK制服 女款 藏青色</span>
+            </div>
+            <div class="dj_kuang1">
+                <span class="price" data-price="1000.00">￥1000.00</span>
+            </div>
+            <div class="sl_kuang1">
+                <input class="sl_min" type="button" value="-">
+                <input class="sl_min_max" type="text" value="1">
+                <input class="sl_max" type="button" value="+">
+            </div>
+            <div class="xj_kuang1">
+                <span class="xiaoji" data-xiaoji="1000.00">￥1000.00</span>
+            </div>
+            <div class="cz_kuang1">
+                <input class="shanchu" type="button" value="删除" id="btn">
+            </div>
+        </div>
+        <div class="body_box3" id="dv">
+            <div class="kuang"><input class="check1" type="checkbox"></div>
+            <div class="pic2">
+                <img class="pic2_2" src="images/1.jpg">
+            </div>
+            <div class="img_wenzi2">
+                <span class="wenzi2">【双11贵就赔】 IAMCPLUS机能风可拆卸链条A字裙裤百褶短裙 女款 黑色</span>
+            </div>
+            <div class="dj_kuang2">
+                <span class="price" data-price="1390.00">￥1390.00</span>
+            </div>
+            <div class="sl_kuang2">
+                <input class="sl_min" type="button" value="-">
+                <input class="sl_min_max" type="text" value="1">
+                <input class="sl_max" type="button" value="+">
+            </div>
+            <div class="xj_kuang2">
+                <span class="xiaoji" data-xiaoji="1390.00">￥1390.00</span>
+            </div>
+            <div class="cz_kuang2">
+                <input class="shanchu" type="button" value="删除" id="btn">
+            </div>
+        </div>
+        <div class="body_box4" id="dv">
+            <div class="kuang"><input class="check1" type="checkbox"></div>
+            <div class="pic3">
+                <img class="pic3_3" src="images/2.jpg">
+            </div>
+            <div class="img_wenzi3">
+                <span class="wenzi3">UNIFREE JK学院风格子半身裙 女款 蓝色格子</span>
+            </div>
+            <div class="dj_kuang3">
+                <span class="price" data-price="2000.00">￥2000.00</span>
+            </div>
+            <div class="sl_kuang3">
+                <input class="sl_min" type="button" value="-">
+                <input class="sl_min_max" type="text" value="1">
+                <input class="sl_max" type="button" value="+">
+            </div>
+            <div class="xj_kuang3">
+                <span class="xiaoji" data-xiaoji="2000.00">￥2000.00</span>
+            </div>
+            <div class="cz_kuang3">
+                <input class="shanchu" type="button" value="删除" id="btn">
+            </div>
+        </div><hr size="1">
+        <div class="body_box5">
+            <div class="bottom_1">
+                <span class="bottom_wenzi1">已选择<span class="numb">0</span>件商品</span>
+            </div>
+            <div class="bottom_2">
+                <span class="bottom_wenzi2">合计：<span class="total">0</span></span>
+            </div>
+            <div class="bottom_3">
+                <input class="js" type="button" value="结算">
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+</body>
+</html>

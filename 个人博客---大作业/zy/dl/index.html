@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>西柚博客站登录</title>
+	<style>
+		.box{
+			float: left;
+			width: 490px;
+			height: 390px;
+			margin-left: 370px;
+			margin-top: 60px;
+			border: 1px solid rgb(29, 28, 28);
+			border-radius: 15px;
+			opacity: 1;
+			background-color: rgb(178, 191, 226);
+		}
+		.box:hover{
+			-moz-box-shadow:10 0 20px rgb(166, 139, 182);
+            -webkit-box-shadow:10 0 20px rgb(160, 127, 179);
+            box-shadow:0 0 20px rgb(97, 113, 158);
+		}
+
+		.box1{
+			float: left;
+			width: 491px;
+			height: 65px;
+			border-radius: 15px;
+		}
+
+		.wenzi{
+			float: left;
+			margin-left: 165px;
+			margin-top: 20px;
+			font-size: xx-large;
+			font-family: "FZShuTi";
+		}
+
+		.box2{
+			float: left;
+			width: 490px;
+			height: 260px;
+			margin-left: 0px;
+		}
+
+		.zc{
+			width: 70px;
+			height: 35px;
+			margin-top: 15px;
+		}
+
+		.ct{
+			width: 70px;
+			height: 35px;
+			margin-top: 15px;
+		}
+
+		.csny{
+			width: 50px;
+			height: 30px;
+		}
+
+	</style>
+</head>
+<body style="background-image: url(images/bj1.gif); background-size:cover;">
+	<div class="box">
+		<div class=box1>
+			<span class="wenzi">西柚博客站</span>
+		</div>
+		<div class="box2"><hr size="2">
+    <form action="../../index.html" method="post" name="myform" onSubmit="return biaoDan()">
+		<p><span style="margin-top: 100px; margin-left: 85px; font-family: FZShuTi; font-size: x-large;">用户名:<input type="text" name="name" id="username" style="background-color: transparent; opacity: 0.8;"/></span></p>
+        <p><span style="margin-left: 109px; font-family: FZShuTi; font-size: x-large;">密码:<input type="password" name="pwd" id="userpwd" style="background-color: transparent; opacity: 0.8;"/></span></p>
+		<p><span style="margin-left: 61px; font-family: FZShuTi; font-size: x-large;">确认密码:<input type="password" name="pwd1" id="userpwd1" style="background-color: transparent; opacity: 0.8;"/></span></p>
+		<p><span style="margin-left: 85px; font-family: FZShuTi; font-size: x-large;">手机号:<input type="password" name="num" id="number" style="background-color: transparent; opacity: 0.8;"/></span></p>
+		<p><span style="margin-left: 61px; font-family: FZShuTi; font-size: x-large;">电子邮箱:<input type="text" name="email" id="useremail" style="background-color: transparent; opacity: 0.8;"/></span></p>
+	    <span style="margin-left: 140px;"><input type="submit" value="注册" onclick="return biaoDan" class="zc" style="background-color: transparent;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" class="ct" style="background-color: transparent;">
+		</div>
+	</div>
+    </form>  
+    <script>
+		function biaoDan(){
+			var name = document.getElementById("username").value;
+			var pwd = document.getElementById("userpwd").value;
+			var pwd1 = document.getElementById("userpwd1").value;
+			var num = document.getElementById("number").value;
+			var email = document.getElementById("useremail").value;
+
+		//用户名
+		var nameReg = /^[a-zA-Z]{4,12}$/;
+		//密码
+		var pwdReg = /^\w{6,20}$/;
+		//手机号码
+		var numReg = /^1[34578]\d{9}$/;
+		//邮箱
+		var emailReg = /^(\w+(\_|\-|\.)*)+@(\w+(\-)?)+(\.\w{2,})+$/;
+
+		if(!nameReg.test(name)){
+			alert('请输入长度为4~12,英文大小写字母的用户名。')
+			return false;
+		}
+
+		if(!pwdReg.test(pwd)){
+			alert('请输入长度由6~20,大小写字母、数字或下划线的密码。')
+			return false;
+		}
+
+		if(pwd != pwd1){
+			alert('两次输入不正确！')
+			return false;
+		}
+
+
+		if(!numReg.test(num)){
+			alert('请输入以13、14、15、17、18开头的11位手机号！');
+			return false;
+		}
+
+
+		if(!emailReg.test(email)){
+			alert('邮箱格式不正确！')
+			return false;
+		}
+
+		else{
+			alert('注册成功！')
+			return true;
+		}
+	
+	}
+    </script>
+</body>
+</html>

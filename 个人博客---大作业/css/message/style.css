@@ -1,0 +1,109 @@
+@charset "utf-8";
+/*清除浏览器默认内、外边距*/
+.mid1{
+	margin:0;
+	padding:0;
+}
+
+.mid{
+	height:100%;
+}
+
+.mid2{
+	padding:0px;
+	font-size:12px;
+	width:635px;
+	background-color:#fff;
+	height:93%;
+	font-family:Tahoma;
+	margin-left: 3.8%;
+	margin-top: 3%;
+	border: 2px solid rgb(187, 178, 178);
+	border-radius: 5px;
+}
+.mid2:hover{
+	-moz-box-shadow:0 0 10px rgb(166, 139, 182);
+	-webkit-box-shadow:0 0 10px rgb(160, 127, 179);
+	box-shadow:0 0 10px rgb(97, 113, 158);
+}
+
+.ul_ly{
+	list-style:none;
+	border-top:1px solid #999;
+	height:200px;
+	overflow-x:auto;
+	overflow-y:scroll;
+}
+.mid span{
+	font-weight:bolder;
+	font-size:16px;
+	color: rgb(72, 69, 80);
+}
+.li_wenzi{
+	margin: 0px -40px;
+	border-bottom:1px dashed #666;
+	margin-bottom: 2%;
+	width: 110%;
+	height: 50px;
+	line-height:25px;
+}
+.form_tc{
+	border-top:1px solid #999;
+}
+.label_nc{
+	display:block;
+	line-height:25px;
+	font-weight:bolder;
+	font-size: 15px;
+	cursor:pointer;
+	background-color:#999;
+	color:#fff;
+	margin:7px 0;
+	padding-left:5px;
+	width:99.2%;
+}
+.text{
+	width:100%;
+	font-size:16px;
+	outline-color:#39C;
+}
+.input_tj{
+	display:block;
+	margin-top:3px;
+	border:1.5px solid rgb(130, 123, 148);
+	border-radius: 5px;
+	padding:10px 5px;
+	width:100%;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.input_tj:hover{
+	transition: 0.5;
+	-moz-box-shadow:0 0 5px rgb(166, 139, 182);
+	-webkit-box-shadow:0 0 5px rgb(160, 127, 179);
+	box-shadow:0 0 10px rgb(97, 113, 158);
+}
+
+/*西柚留言板--文字*/
+.h1_xy{
+	font-size: 30px;
+	color: rgb(130, 123, 148);
+	padding: -10px;
+	margin: 15px;
+}
+
+/*吐槽*/
+.h2_tc{
+	font-size: 20px;
+	bottom: 5%;
+	color: rgb(130, 123, 148);
+	margin: 7px;
+}
+
+/*辣妹*/
+.p_lm{
+	font-size: 13px;
+	font-weight: 400;
+	color: rgb(54, 52, 59);
+}

@@ -1,0 +1,156 @@
+.foot_bottom_bot{
+	float: left;
+	width: 100%;
+	height: 100px;
+	margin-top:0px;
+}
+.foot_bottom_bot2{
+	float: left;
+	width: 15%;
+	height: 75px;
+	margin-top:30px;
+	margin-left: 150px;
+}
+.foot_font{
+	float:left;
+	margin-left:38%;
+}
+.foot_mid_font1{
+	float: left;
+    margin-left: 28%;
+}
+
+.text1_body_cen1{
+	margin-top:0px;
+}
+
+.img1{
+    display: block;
+	width:100%;
+	height:400px;
+}
+.img2{
+    display: none;
+	width:100%;
+	height:400px;
+}
+
+.img3{
+    display: none;
+	width:100%;
+	height:400px;
+}
+
+.img4{
+    display: none;
+	width:100%;
+	height:400px;
+}
+
+.img5{
+    display: none;
+	width:100%;
+	height:400px;
+}
+
+.text1_body_test1{
+	float:left;
+	width:100%;
+	height:660px;
+	margin-top:20px;
+}
+
+.text1_body_test1_1{
+	float:left;
+	width:100%;
+	height:90px;
+	font-size:30px;
+	font-weight:700;
+	text-align:center;
+	display:inline-block;
+	color:red;
+	font-family:´微软雅bai黑´;
+	background-image:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(198, 199, 135)), to(rgb(172, 126, 126)));
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.text1_body_test1_2{
+	float:left;
+	width:100%;
+	height:300px;
+	text-align:center;
+	font-size: 5px;
+}
+
+.text1_body_test1_3{
+	font-size: 20px;
+	transition:all 1s linear;
+}
+
+.text1_body_test1_3:hover{
+	color:green;
+}
+
+.text1_body_test1_4{
+	font-size: 20px;
+	transition:all 1s linear;
+}
+
+.text1_body_test1_4:hover{
+	color:pink;
+}
+
+.text1_body_test1_5{
+	font-size: 20px;
+	transition:all 1s linear;
+}
+
+.text1_body_test1_5:hover{
+	color:#FF6347;
+}
+
+.text1_body_test1_6{
+	font-size: 20px;
+	transition:all 1s linear;
+}
+
+.text1_body_test1_6:hover{
+	color:#D02090;
+}
+
+.text1_body_test1_7{
+	font-size: 20px;
+	transition:all 1s linear;
+}
+
+.text1_body_test1_7:hover{
+	color:#D87093;
+}
+
+.text1_body_test1_picture{
+	float:left;
+	width:100%;
+	height:400px;
+}
+
+.text1_body_test1_picture_foot{
+	float:left;
+	width:100%;
+	height:400px;
+}
+
+.text1_body_test1_picture_foot_1{
+	font-size:40px;
+	font-weight:700;
+	text-align:center;
+}
+
+.text1_body_test1_picture_foot_01{
+	font-size: 40px;
+	transition:all 1s linear;
+}
+
+.text1_body_test1_picture_foot_01:hover{
+	color:pink;
+}

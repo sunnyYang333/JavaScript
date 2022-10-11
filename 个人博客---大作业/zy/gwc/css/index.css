@@ -1,0 +1,438 @@
+
+.box{
+    width: 100%;
+    height: 540px;
+    text-align: center;
+}
+
+.jk{
+    float: left;
+    width: 100%;
+    height: 80px;
+    margin-left: 2%;
+    
+}
+
+.picjk{
+    float: left;
+    width: 10%;
+    height: 80px;
+}
+
+.wz{
+    float: left;
+    width: 20%;
+    height: 90px;
+}
+
+.wenzi{
+    float: left;
+    margin-top: 10%;
+    font-size: 3.5vw;
+    font-family: "FZShuTi";
+    color: gray;
+}
+/*第一行框*/
+.body_box1{
+    float: left;
+    width: 100%;
+    height: 55px;
+}
+
+/*文字框*/
+.quanxuan{
+    float: left;
+    width: 10%;
+    height: 55px;
+}
+
+.check{
+    float: left;
+    width:20%;
+    height: 20px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.name{
+    float: left;
+    width: 38%;
+    height: 55px;
+}
+
+.pric{
+    float: left;
+    width: 13%;
+    height: 55px;
+}
+
+.numbe{
+    float: left;
+    width: 13%;
+    height: 55px;
+}
+
+.calu{
+    float: left;
+    width: 13%;
+    height: 55px;
+}
+
+.caozuo{
+    float: left;
+    width: 13%;
+    height: 55px;
+}
+/*文字样式*/
+.qx{
+    float: left;
+    font-size: 2vw;
+    margin-top: 10%;
+    font-family: "FZShuTi";
+}
+
+.sp{
+    float: left;
+    font-size: 2vw;
+    margin-top: 3%;
+    margin-left: 40%;
+    font-family: "FZShuTi";
+}
+
+.dj{
+    float: left;
+    font-size: 2vw;
+    margin-top: 10%;
+    margin-left: 30%;
+    font-family: "FZShuTi";
+}
+
+.sl{
+    float: left;
+    font-size: 2vw;
+    margin-top: 10%;
+    margin-left: 30%;
+    font-family: "FZShuTi";
+}
+
+.xj{
+    float: left;
+    font-size: 2vw;
+    margin-top: 10%;
+    margin-left: 30%;
+    font-family: "FZShuTi";
+}
+
+.cz{
+    float: left;
+    font-size: 2vw;
+    margin-top: 10%;
+    margin-left: 30%;
+    font-family: "FZShuTi";
+}
+
+/*第二行框*/
+.body_box2{
+    float: left;
+    width: 100%;
+    height: 95px;
+}
+
+/*第二行小框--小方框*/
+.kuang{
+    float: left;
+    width: 10%;
+    height: 90px;
+}
+
+.check1{
+    float: left;
+    width:20%;
+    height: 20px;
+    margin-top: 28%;
+    margin-left: 35%;
+}
+
+.pic1{
+    float: left;
+    width: 12%;
+    height: 90px;
+}
+
+.pic1_1{
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.img_wenzi1{
+    float: left;
+    width: 26%;
+    height: 90px;
+}
+
+.wenzi1{
+    float: left;
+    margin-top: 8%;
+    font-size: 1.5vw;
+    font-family: "FZShuTi";
+}
+
+.dj_kuang1{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.price{
+    float: left;
+    margin-top: 17%;
+    margin-left: 25%;
+    font-size: 2vw;
+    font-family: "FZShuTi";
+}
+
+.sl_kuang1{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+/*数量*/
+/*-*/
+.sl_min{
+    float: left;
+    font-size: 1.5vw;
+    margin-top: 20%;
+    margin-left: 13%;
+    font-family: "FZShuTi";
+}
+
+/*框*/
+.sl_min_max{
+    float: left;
+    width: 30%;
+    height: 20px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+/*+*/
+.sl_max{
+    float: left;
+    font-size: 1.5vw;
+    margin-top: 20%;
+    font-family: "FZShuTi";
+}
+
+/*小计*/
+.xj_kuang1{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.xiaoji{
+    float: left;
+    font-size: 2vw;
+    margin-top: 18%;
+    margin-left: 20%;
+    font-family: "FZShuTi";
+
+}
+
+/*操作*/
+.cz_kuang1{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.shanchu{
+    float: left;
+    font-size: 2vw;
+    margin-top: 18%;
+    margin-left: 27%;
+    font-family: "FZShuTi";
+}
+
+/*第三行框*/
+.body_box3{
+    float: left;
+    width: 100%;
+    height: 95px;
+}
+
+.pic2{
+    float: left;
+    width: 12%;
+    height: 90px;
+}
+
+.pic2_2{
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.img_wenzi2{
+    float: left;
+    width: 26%;
+    height: 90px;
+}
+
+.wenzi2{
+    float: left;
+    margin-top: 8%;
+    font-size: 1.5vw;
+    font-family: "FZShuTi";
+}
+
+.dj_kuang2{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.dj2{
+    float: left;
+    margin-top: 17%;
+    margin-left: 25%;
+    font-size: 2vw;
+    font-family: "FZShuTi";
+}
+
+.sl_kuang2{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.xj_kuang2{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.cz_kuang2{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+/*第四行框*/
+.body_box4{
+    float: left;
+    width: 100%;
+    height: 95px;
+}
+
+.pic3{
+    float: left;
+    width: 12%;
+    height: 90px;
+}
+
+.pic3_3{
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.img_wenzi3{
+    float: left;
+    width: 26%;
+    height: 90px;
+}
+
+.wenzi3{
+    float: left;
+    margin-top: 8%;
+    font-size: 1.5vw;
+    font-family: "FZShuTi";
+}
+
+.dj_kuang3{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.dj3{
+    float: left;
+    margin-top: 17%;
+    margin-left: 25%;
+    font-size: 2vw;
+    font-family: "FZShuTi";
+}
+
+.sl_kuang3{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.xj_kuang3{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+.cz_kuang3{
+    float: left;
+    width: 13%;
+    height: 90px;
+}
+
+/*第五行框*/
+.body_box5{
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-top: 1%;
+    background-color: rgb(238, 235, 235);
+}
+
+.bottom_1{
+    float: left;
+    margin-left: 52%;
+    width: 14%;
+    height: 70px;
+}
+
+.bottom_wenzi1{
+    float: left;
+    font-size: 2vw;
+    margin-top: 20%;
+    font-family: "FZShuTi";
+}
+
+.bottom_2{
+    float: left;
+    width: 16%;
+    height: 70px;
+}
+
+.bottom_wenzi2{
+    float: left;
+    font-size: 2vw;
+    margin-top: 18%;
+    font-family: "FZShuTi";
+}
+
+.bottom_3{
+    float: left;
+    width: 16%;
+    height: 65px;
+    margin-left: 1%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.js{
+    float: left;
+    width: 100%;
+    height: 65px;
+    font-size: 3vw;
+    font-family: "FZShuTi";
+}
